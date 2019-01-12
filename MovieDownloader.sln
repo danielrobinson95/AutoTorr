@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDownloader.API", "MovieDownloader\MovieDownloader.API.csproj", "{2B53FDBF-8584-4F91-B433-CEF36D48E8BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yify.API", "Yify.API\Yify.API.csproj", "{07CD4071-1101-4F26-8FD7-690EBF8512DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDownloader.Models", "MovieDownloader.Models\MovieDownloader.Models.csproj", "{DF0A4FE2-58C2-4A91-BEA8-B6038A553E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDownloader.FileSorter.Service", "MovieDownloader.FileSorter.Service\MovieDownloader.FileSorter.Service.csproj", "{40DCA43E-71B8-487D-A570-871DE4344969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDownloader.FileSorter.Core", "MovieDownloader.FileSorter.Core\MovieDownloader.FileSorter.Core.csproj", "{556009D4-BF5F-4910-BCE1-FAD0037C5F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Stats|Any CPU = Stats|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B53FDBF-8584-4F91-B433-CEF36D48E8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B53FDBF-8584-4F91-B433-CEF36D48E8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B53FDBF-8584-4F91-B433-CEF36D48E8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B53FDBF-8584-4F91-B433-CEF36D48E8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B53FDBF-8584-4F91-B433-CEF36D48E8BF}.Stats|Any CPU.ActiveCfg = Release|Any CPU
+		{2B53FDBF-8584-4F91-B433-CEF36D48E8BF}.Stats|Any CPU.Build.0 = Release|Any CPU
+		{07CD4071-1101-4F26-8FD7-690EBF8512DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CD4071-1101-4F26-8FD7-690EBF8512DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CD4071-1101-4F26-8FD7-690EBF8512DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CD4071-1101-4F26-8FD7-690EBF8512DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CD4071-1101-4F26-8FD7-690EBF8512DA}.Stats|Any CPU.ActiveCfg = Release|Any CPU
+		{07CD4071-1101-4F26-8FD7-690EBF8512DA}.Stats|Any CPU.Build.0 = Release|Any CPU
+		{DF0A4FE2-58C2-4A91-BEA8-B6038A553E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0A4FE2-58C2-4A91-BEA8-B6038A553E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0A4FE2-58C2-4A91-BEA8-B6038A553E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0A4FE2-58C2-4A91-BEA8-B6038A553E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0A4FE2-58C2-4A91-BEA8-B6038A553E7E}.Stats|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0A4FE2-58C2-4A91-BEA8-B6038A553E7E}.Stats|Any CPU.Build.0 = Release|Any CPU
+		{40DCA43E-71B8-487D-A570-871DE4344969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DCA43E-71B8-487D-A570-871DE4344969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DCA43E-71B8-487D-A570-871DE4344969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DCA43E-71B8-487D-A570-871DE4344969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DCA43E-71B8-487D-A570-871DE4344969}.Stats|Any CPU.ActiveCfg = Release|Any CPU
+		{40DCA43E-71B8-487D-A570-871DE4344969}.Stats|Any CPU.Build.0 = Release|Any CPU
+		{556009D4-BF5F-4910-BCE1-FAD0037C5F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556009D4-BF5F-4910-BCE1-FAD0037C5F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556009D4-BF5F-4910-BCE1-FAD0037C5F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556009D4-BF5F-4910-BCE1-FAD0037C5F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556009D4-BF5F-4910-BCE1-FAD0037C5F56}.Stats|Any CPU.ActiveCfg = Release|Any CPU
+		{556009D4-BF5F-4910-BCE1-FAD0037C5F56}.Stats|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41ACCC0C-795A-44CD-9C52-83DCD82F3570}
+	EndGlobalSection
+EndGlobal
